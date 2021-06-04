@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Awesome Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/iphonecon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="script.js" type="text/javascript"> </script>
+
+  </head>
+  <body>
+  <header>
+  <div id="header-container">
+    <div class="col-3">
+      <img class="logo" src="images/Logo-Dark.png" height="18px" width="143px" alt="">
+    </div>
+    <div class="col-3">
+      <nav>
+        <ul class="menu">
+          <a href="https://www.androidauthority.com/android-12-features-1195735/"><li>Android 12</li></a>
+          <a href="https://www.androidauthority.com/news/"><li>News</li></a>
+          <a href="https://www.androidauthority.com/best-phone-accessories-1142273/"><li>Phone Accesories</li></a>
+
+        </ul>
+      </nav>
+    </div>
+    <div class="col-3">
+      <a href="https://www.androidauthority.com/first-things-new-android-phone-setup-631133/" class="getStartedBTN">Get Started</a>
+    </div>
+  </div>
+  </header>        <!-- header container ends here -->
+  <div class="main-container">
+    <div id="top-section-main">
+      <div class="top-section-content">
+        <h1>Awesome looks so good.</h1>
+        <p>Awesome is an E-commerce Website to buy your first Android and an I-Phone.</p>
+        <img class="play-button" src="images/Play.png" alt="Play Button" height="120px" width="120px">
+        <div class="main-form">
+          <form class="" action="index.html" method="post">
+            <h6>SIGN UP FOR A 30-DAY FREE TRIAL.</h6>
+            <input type="text" name="text" value="text">
+            <input type="email" name="email" value="email">
+            <button class="trial-btn" style="trial" type="submit" name="submit">Start</button></a>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div id="feature-section">
+      <h1 class="feature-section-title">Awesome is an amazing landing page brought to you on everyone's favourite
+      Mobile Phones, <span style="background-color: #6dc77a; color: #ffffff;">Camera Phones</span>. Imagine what's next.</h1>
+
+      <div class="feature-content">
+        <div class="col-3">
+          <img src="images/Couple.jpg" alt="">
+          <h3>Mobile, First Always</h3>
+          <p>Mobile-first design is a design philosophy that aims to create better experiences for users by starting the design process from the smallest of screens</p>
+        </div>
+        <div class="col-3">
+          <img src="images/jog.jpg" alt="">
+          <h3>Amazing Camera Features</h3>
+          <p>Offering the higher quality photographic features found in dedicated cameras, an Android camera also runs the many available Android apps. </p>
+        </div>
+        <div class="col-3">
+          <img src="images/Girlphone.jpg" alt="">
+          <h3>Socially social</h3>
+          <p>Social media is a powerful tool that connects people. Check out all the best ways with the best social media apps for Android!</p>
+        </div>
+      </div>
+    </div>
+    <!-- feature section ends here -->
+    <div id="showcase1-container">
+      <div class="showcase">
+        <div class="col-2">
+
+
+          <img class="showcase1pic" src="images/apple.jpg" alt="">
+        </div>
+        <div class="col-2">
+          <div class="feature-text">
+          <h1 class = "section-title">If not an android, then an IPhone surely</h1>
+          <p class "section-left">Accessibility features help people with disabilities get the most out of their new iPhone. With built‑in support for vision, hearing, mobility and learning</p>
+        </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div id="showcase2-container">
+      <div class="showcase">
+        <div class="col-2">
+          <div class="feature-text">
+          <h1 class = "section-title">Next Generation I-phone</h1>
+          <p class "section-left">It includes a redesigned glass and stainless steel enclosure, wireless charging and dual cameras. Its flagship feature is an edge-to-edge “Super Retina display” </p>
+        </div>
+
+
+        </div>
+        <div class="col-2">
+        <img class="showcase1pic" src="images/ipad.jpg" alt="">
+        </div>
+      </div>
+
+    </div>          <!-- end showcase 2 container -->
+
+    <div id="call-to-action">
+      <div class="showcase">
+        <div class="col-1">
+          <h1 class="action-title">What are you waiting for?</h1>
+          <p>Get started today and try for free - No credit card required!</p>
+          <p style="text-align"> <a href="https://www.sangeethamobiles.com/" class="signupBTN">TRY TODAY</a> </p>
+        </div>
+      </div>
+    </div>         <!-- end call to action -->
+    <div class="signup">
+      <div class="col-2">
+        <div class="top-margin">
+        <h1 class="section-title" style="text-align:left;">Hear what our fans have to say about</h1>
+        <p class="section-left" style="font-style:italic;">You ask about the saying “ people only hear what they want to hear” . This is figuratively not literally. People generally are poor listeners and are usually thinking ... <br><br><strong>-John Smith</strong> </p>
+        </div>
+      </div>       <!-- end of col-2 -->
+      <div class="col-2">
+      <form class="signupform" action="index.html" method="post" onsubmit="return validation()">
+        <h6>SIGN UP FOR A 30 DAY TRIAL</h6>
+        <input type="text" name="name" placeholder="Name" id="user"><br><span id="username" class="script-text"></span>
+        <input type="email" name="email" placeholder="Email" id="email"><br><span id="mail" class="script-text"></span>
+        <button class="trial-btn" style="trial" type="submit" value="submit" onclick="addFeedback()">Feedback</button>
+          <button class="trial-btn" style="trial" type="submit" value="submit" onclick="displayFeedback()">Display Feedback</button>
+        <div id="result"></div>
+
+      </form>
+      </div>       <!-- end of col-2 -->
+    </div>
+  </div>           <!-- main container ends here -->
+  <footer>
+    <div class="social-footer">
+      <div class="center">
+        <img src="images/Twitter.png" alt="twitter" height="48" width="55">
+      </div>
+    </div>
+    <div class="social-footer">
+      <div class="center">
+        <a href="https://www.facebook.com/search/top/?q=awesome%20phones"><img src="images/Facebook.png" alt="twitter" height="55" width="28"></a>
+      </div>
+    </div>
+    <div class="social-footer">
+      <div class="center">
+        <a href="https://www.instagram.com/awesomephonesshop/"><img href="https://www.instagram.com/" src="images/Instagram.png" alt="twitter" height="52" width="52"></a>
+      </div>
+    </div>
+     <p style="text-align:center; padding-top:300px;"><img src="images/logolight.png" alt="" width="143" height="18"></p>
+    <span class="copyright">&copy; Copyright May-2021 Awesome - Made with Heart &hearts; in Dehradun.</span>
+  </footer>
+  </body>
+</html>
